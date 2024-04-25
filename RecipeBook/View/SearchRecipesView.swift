@@ -57,9 +57,9 @@ struct SearchRecipesView: View {
                         fetchObjectsTask = Task {
                             do {
                                 viewModel.recipes = []
-                              //  try await viewModel.fetchRecipes(for: query)
+                                try await viewModel.fetchRecipes(for: query)
                                 // Uncomment below and comment above line to test with json stored in recipes.json
-                               try await viewModel.loadAPIDetailsFormAppBundle()
+                              // try await viewModel.loadAPIDetailsFormAppBundle()
                             } catch {
                                 viewModel.searchStart = false
                                 showingAlert = true
