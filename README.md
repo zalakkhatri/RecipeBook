@@ -30,7 +30,7 @@ Required App Functionality
 * The code is organized and readable. All ViewModel files are stored in ViewModel folder. All SWiftUI View files are stored in View folder.Other App info for example Assets are stored in App folder.
 * The project is implemented in MVVM architecture. SearchRecipeViewModel and MyRecipesViewModel are ObservableObject and both has multiple Published properties.
 * The project utilizes SwiftLint. All lint errors are resolved.
-* The project has test plan including both UI and unit test. The code coverage is 71%. All tests are executing successfully.
+* The project has test plan including both UI and unit test. The code coverage is 66%. All tests are executing successfully.
 * The App includes a custom App icon.
 * The App inlcudes an onboarding screens.
 * The App includes a custom display name - "RecipeBook".

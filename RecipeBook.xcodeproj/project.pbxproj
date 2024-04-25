@@ -31,7 +31,6 @@
 		51DA48A62BD0B3E800BBC3F5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48A52BD0B3E800BBC3F5 /* OnboardingView.swift */; };
 		51DA48A82BD0B5AE00BBC3F5 /* OnboardingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48A72BD0B5AE00BBC3F5 /* OnboardingItem.swift */; };
 		51DA48AB2BD371EF00BBC3F5 /* MyRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DA48AA2BD371EF00BBC3F5 /* MyRecipesTests.swift */; };
-		51DA48AD2BD4384F00BBC3F5 /* secureKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51DA48AC2BD4384F00BBC3F5 /* secureKeys.plist */; };
 		51DA48B32BD49C2300BBC3F5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51DA48B22BD49C2300BBC3F5 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -80,7 +79,6 @@
 		51DA48A52BD0B3E800BBC3F5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		51DA48A72BD0B5AE00BBC3F5 /* OnboardingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingItem.swift; sourceTree = "<group>"; };
 		51DA48AA2BD371EF00BBC3F5 /* MyRecipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipesTests.swift; sourceTree = "<group>"; };
-		51DA48AC2BD4384F00BBC3F5 /* secureKeys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secureKeys.plist; sourceTree = "<group>"; };
 		51DA48B22BD49C2300BBC3F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,7 +131,6 @@
 		51DA48452BBF722900BBC3F5 /* RecipeBook */ = {
 			isa = PBXGroup;
 			children = (
-				51DA48AC2BD4384F00BBC3F5 /* secureKeys.plist */,
 				51DA48762BBF755300BBC3F5 /* App */,
 				51DA48752BBF754D00BBC3F5 /* ViewModel */,
 				51DA48742BBF754800BBC3F5 /* View */,
@@ -314,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51DA484E2BBF722A00BBC3F5 /* Preview Assets.xcassets in Resources */,
-				51DA48AD2BD4384F00BBC3F5 /* secureKeys.plist in Resources */,
 				51DA48B32BD49C2300BBC3F5 /* README.md in Resources */,
 				51DA487E2BC0F44000BBC3F5 /* recipes.json in Resources */,
 				51DA484B2BBF722A00BBC3F5 /* Assets.xcassets in Resources */,
